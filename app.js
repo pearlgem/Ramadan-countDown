@@ -1,9 +1,5 @@
 alert("UI ko time nhi diya, Sorry");
 function updateCountdown() {
-  let millisecondsInOneDay = 1000 * 60 * 60 * 24;
-  console.log(millisecondsInOneDay);
-
-  console.log(miliSeconds);
   let ramazanDate = new Date("Feb 28, 2025 00:00:00").getTime();
   let now = new Date().getTime();
   let bakiTime = ramazanDate - now;
